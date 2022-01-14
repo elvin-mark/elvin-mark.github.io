@@ -1,0 +1,14 @@
+{
+    "1": {
+        "img": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/project_pytorch_trainer.png",
+        "title": "PyTorch Trainer",
+        "summary": "This is a simple project that help anybody to train computer vision models on many datasets, even in customize images datsets.",
+        "link": "https://github.com/elvin-mark/pytorch_trainer"
+    },
+    "2": {
+        "img": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/project_pytorch_detector.png",
+        "title": "PyTorch Detector",
+        "summary": "This project aims to help anybody to help to train object detection models",
+        "link": "https://github.com/elvin-mark/pytorch_detector"
+    }
+}
