@@ -1,6 +1,8 @@
 {
-    "1": {
-        "title": "First Post",
-        "content": "This is my first post!"
-    }
+    "posts": [
+        {
+            "title": "First Post",
+            "content": "This is my first post!"
+        }
+    ]
 }
