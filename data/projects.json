@@ -17,6 +17,12 @@
             "title": "Pokedex ML",
             "summary": "This project is a simple app that uses Conv Neural Networks to mimic the device pokedex from the famous anime Pokemon",
             "link": "https://github.com/elvin-mark/pokedex-ml"
+        },
+        {
+            "img": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/project_flower_search.png",
+            "title": "Flower ML",
+            "summary": "Using convolutional networks to recognize the type of flower.",
+            "link": "https://github.com/elvin-mark/flower-ml"
         }
     ]
 }
