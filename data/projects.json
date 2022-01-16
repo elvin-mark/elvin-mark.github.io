@@ -11,6 +11,12 @@
             "title": "PyTorch Detector",
             "summary": "This project aims to help anybody to help to train object detection models",
             "link": "https://github.com/elvin-mark/pytorch_detector"
+        },
+        {
+            "img": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/project_pokedex_ml.png",
+            "title": "Pokedex ML",
+            "summary": "This project is a simple app that uses Conv Neural Networks to mimic the device pokedex from the famous anime Pokemon",
+            "link": "https://github.com/elvin-mark/pokedex-ml"
         }
     ]
 }
