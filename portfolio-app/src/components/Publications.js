@@ -17,7 +17,7 @@ function Publications() {
     <div>
       <List>
         {data.map((elem) => (
-          <PublicationItem {...elem}></PublicationItem>
+          <PublicationItem {...elem} key={elem.id}></PublicationItem>
         ))}
       </List>
     </div>

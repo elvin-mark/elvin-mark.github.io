@@ -26,7 +26,7 @@ function MyTabs() {
   const currentTab = routeMatch?.pattern?.path;
   return (
     <div>
-      <Tabs value={currentTab}>
+      <Tabs value={currentTab} variant="scrollable">
         <Tab label="About Me" value="/" to="/" component={Link}></Tab>
         <Tab
           label="Projects"

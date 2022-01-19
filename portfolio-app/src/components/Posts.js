@@ -17,7 +17,7 @@ function Posts() {
     <div>
       <Stack spacing={2}>
         {data.map((elem) => (
-          <Post {...elem}></Post>
+          <Post {...elem} key={elem.id}></Post>
         ))}
       </Stack>
     </div>

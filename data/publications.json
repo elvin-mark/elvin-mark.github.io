@@ -1,6 +1,7 @@
 {
     "publications": [
         {
+            "id": 1,
             "author": "Quispe,Johan  and Muñoz,Elvin  and Vela,Emir",
             "title": "Exploiting the transient behavior of thermocapillary convection flows to enhance non-contact mesoscale manipulation",
             "journal": "Applied Physics Letters",
@@ -9,6 +10,7 @@
             "year": "2016"
         },
         {
+            "id": 2,
             "author": "Muñoz, Elvin  and Quispe, Johan  and Lambert, Pierre and Bolopion, Aude Terrazas, Ronald and Régnier, Stéphane and Vela,Emir",
             "title": "Optimizing the speed of single infrared-laser-induced thermocapillary flows micromanipulation by using design of experiments",
             "journal": "Journal of Micro-Bio Robotics",
@@ -17,6 +19,7 @@
             "year": "2017"
         },
         {
+            "id": 3,
             "author": "J. E. Quispe and J. C. Inga and E. M. Muñoz and S. Régnier and E. Vela",
             "title": "Single particle manipulation/sorting through the transient response of thermocapillary convection flows",
             "journal": "2016 International Conference on Manipulation, Automation and Robotics at Small Scales (MARSS)",
@@ -25,6 +28,7 @@
             "year": "2016"
         },
         {
+            "id": 4,
             "author": "E. M. Muñoz and J. E. Quispe and E. Vela",
             "title": "Closed-loop selective manipulation of multiple microparticles by controlling the transient regime of Marangoni flows",
             "journal": "2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
@@ -33,6 +37,7 @@
             "year": "2016"
         },
         {
+            "id": 5,
             "author": "E. M. Muñoz and J. E. Quispe and S. Régnier and E. Vela",
             "title": "Laser-induced thermocapillary flow manipulation of microparticles with obstacle avoidance in a non-patterned fluidic environment",
             "journal": "2017 International Conference on Manipulation, Automation and Robotics at Small Scales (MARSS)",
@@ -41,6 +46,7 @@
             "year": "2017"
         },
         {
+            "id": 6,
             "author": "A. A. Reymundo and E. M. Muñoz and M. Navarro and E. Vela and H. I. Krebs",
             "title": "Hand rehabilitation using Soft-Robotics",
             "journal": "2016 6th IEEE International Conference on Biomedical Robotics and Biomechatronics (BioRob)",

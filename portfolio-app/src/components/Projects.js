@@ -29,7 +29,7 @@ function Projects() {
         }}
       >
         {data.map((elem) => (
-          <Project {...elem}></Project>
+          <Project {...elem} key={elem.id}></Project>
         ))}
       </Box>
     </div>

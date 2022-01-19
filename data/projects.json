@@ -1,24 +1,28 @@
 {
     "projects": [
         {
+            "id": 1,
             "img": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/project_pytorch_trainer.png",
             "title": "PyTorch Trainer",
             "summary": "This is a simple project that help anybody to train computer vision models on many datasets, even in customize images datsets.",
             "link": "https://github.com/elvin-mark/pytorch_trainer"
         },
         {
+            "id": 2,
             "img": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/project_pytorch_detector.png",
             "title": "PyTorch Detector",
             "summary": "This project aims to help anybody to help to train object detection models",
             "link": "https://github.com/elvin-mark/pytorch_detector"
         },
         {
+            "id": 3,
             "img": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/project_pokedex_ml.png",
             "title": "Pokedex ML",
             "summary": "This project is a simple app that uses Conv Neural Networks to mimic the device pokedex from the famous anime Pokemon",
             "link": "https://github.com/elvin-mark/pokedex-ml"
         },
         {
+            "id": 4,
             "img": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/project_flower_search.png",
             "title": "Flower ML",
             "summary": "Using convolutional networks to recognize the type of flower.",
