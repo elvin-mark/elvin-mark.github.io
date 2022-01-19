@@ -1,0 +1,52 @@
+{
+    "publications": [
+        {
+            "author": "Quispe,Johan  and Muñoz,Elvin  and Vela,Emir",
+            "title": "Exploiting the transient behavior of thermocapillary convection flows to enhance non-contact mesoscale manipulation",
+            "journal": "Applied Physics Letters",
+            "doi": "10.1063/1.4963159",
+            "URL": "https://aip.scitation.org/doi/10.1063/1.4963159",
+            "year": "2016"
+        },
+        {
+            "author": "Muñoz, Elvin  and Quispe, Johan  and Lambert, Pierre and Bolopion, Aude Terrazas, Ronald and Régnier, Stéphane and Vela,Emir",
+            "title": "Optimizing the speed of single infrared-laser-induced thermocapillary flows micromanipulation by using design of experiments",
+            "journal": "Journal of Micro-Bio Robotics",
+            "doi": "10.1007/s12213-017-0097-3",
+            "URL": "https://hal.archives-ouvertes.fr/hal-02963645",
+            "year": "2017"
+        },
+        {
+            "author": "J. E. Quispe and J. C. Inga and E. M. Muñoz and S. Régnier and E. Vela",
+            "title": "Single particle manipulation/sorting through the transient response of thermocapillary convection flows",
+            "journal": "2016 International Conference on Manipulation, Automation and Robotics at Small Scales (MARSS)",
+            "doi": "10.1109/MARSS.2016.7561730",
+            "URL": "https://ieeexplore.ieee.org/document/7561730",
+            "year": "2016"
+        },
+        {
+            "author": "E. M. Muñoz and J. E. Quispe and E. Vela",
+            "title": "Closed-loop selective manipulation of multiple microparticles by controlling the transient regime of Marangoni flows",
+            "journal": "2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+            "doi": "10.1109/IROS.2016.7759754",
+            "URL": "https://ieeexplore.ieee.org/document/7759754",
+            "year": "2016"
+        },
+        {
+            "author": "E. M. Muñoz and J. E. Quispe and S. Régnier and E. Vela",
+            "title": "Laser-induced thermocapillary flow manipulation of microparticles with obstacle avoidance in a non-patterned fluidic environment",
+            "journal": "2017 International Conference on Manipulation, Automation and Robotics at Small Scales (MARSS)",
+            "doi": "10.1109/MARSS.2017.8001939",
+            "URL": "https://ieeexplore.ieee.org/document/8001939",
+            "year": "2017"
+        },
+        {
+            "author": "A. A. Reymundo and E. M. Muñoz and M. Navarro and E. Vela and H. I. Krebs",
+            "title": "Hand rehabilitation using Soft-Robotics",
+            "journal": "2016 6th IEEE International Conference on Biomedical Robotics and Biomechatronics (BioRob)",
+            "doi": "10.1109/BIOROB.2016.7523708",
+            "URL": "https://ieeexplore.ieee.org/document/7523708",
+            "year": "2016"
+        }
+    ]
+}

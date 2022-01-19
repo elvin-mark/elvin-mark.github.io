@@ -16,7 +16,13 @@ function useRouteMatch(patterns) {
 }
 
 function MyTabs() {
-  const routeMatch = useRouteMatch(["/", "/projects", "/posts", "/playground"]);
+  const routeMatch = useRouteMatch([
+    "/",
+    "/projects",
+    "/posts",
+    "/playground",
+    "/publications",
+  ]);
   const currentTab = routeMatch?.pattern?.path;
   return (
     <div>
@@ -33,6 +39,12 @@ function MyTabs() {
           label="Playground"
           value="/playground"
           to="/playground"
+          component={Link}
+        ></Tab>
+        <Tab
+          label="Publications"
+          value="/publications"
+          to="/publications"
           component={Link}
         ></Tab>
       </Tabs>

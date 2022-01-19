@@ -6,9 +6,11 @@ import { MemoryRouter, Route, Routes } from "react-router-dom";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Posts from "./components/Posts";
-import Flower from "./components/Flower";
 import Playground from "./components/Playground";
-import Pokedex from "./components/Pokedex";
+import Publications from "./components/Publications";
+
+import Flower from "./components/Flower/Flower";
+import Pokedex from "./components/Pokedex/Pokedex";
 
 function App() {
   return (
@@ -20,12 +22,16 @@ function App() {
             <Route path="/" element={<AboutMe />}></Route>
             <Route path="/projects" element={<Projects />}></Route>
             <Route path="/posts" element={<Posts />}></Route>
-            <Route path="/flower" element={<Flower />}></Route>
-            <Route path="/pokedex" element={<Pokedex />}></Route>
             <Route
               path="/playground"
               element={<Playground></Playground>}
             ></Route>
+            <Route
+              path="/publications"
+              element={<Publications></Publications>}
+            ></Route>
+            <Route path="/flower" element={<Flower />}></Route>
+            <Route path="/pokedex" element={<Pokedex />}></Route>
           </Routes>
         </Box>
       </MemoryRouter>

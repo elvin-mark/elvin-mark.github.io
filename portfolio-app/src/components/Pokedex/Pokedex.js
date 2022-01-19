@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Webcam from "react-webcam";
-import loading_logo from "../loading.gif";
+import loading_logo from "./loading.gif";
 import PokemonSearchItem from "./PokemonSearchItem";
 
 function Pokedex() {
