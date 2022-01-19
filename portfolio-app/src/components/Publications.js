@@ -10,7 +10,7 @@ function Publications() {
     )
       .then((response) => response.json())
       .then((res) => {
-        setData(res.posts);
+        setData(res.publications);
       });
   }, []);
   return (
