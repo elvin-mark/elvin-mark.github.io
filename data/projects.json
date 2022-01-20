@@ -27,6 +27,13 @@
             "title": "Flower ML",
             "summary": "Using convolutional networks to recognize the type of flower.",
             "link": "https://github.com/elvin-mark/flower-ml"
+        },
+        {
+            "id": 5,
+            "img": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/project_pytorch_gan.png",
+            "title": "PyTorch GAN trainer",
+            "summary": "Tool to train GAN models on diverse datasets.",
+            "link": "https://github.com/elvin-mark/pytorc_gan"
         }
     ]
 }
