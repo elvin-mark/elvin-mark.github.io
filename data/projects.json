@@ -34,6 +34,13 @@
             "title": "PyTorch GAN trainer",
             "summary": "Tool to train GAN models on diverse datasets.",
             "link": "https://github.com/elvin-mark/pytorc_gan"
+        },
+        {
+            "id": 7,
+            "img": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/jade.png",
+            "title": "JaDE: Java Deep Learning Library",
+            "summary": "Simple Java Library for deep learning.",
+            "link": "https://github.com/elvin-mark/jade"
         }
     ]
 }
