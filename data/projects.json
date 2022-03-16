@@ -48,6 +48,13 @@
       "title": "pytorch-audio",
       "summary": "Simple cli for training speech recognition models",
       "link": "https://github.com/elvin-mark/pytorch-audio"
+    },
+    {
+      "id": 9,
+      "img": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/pytorch_translator.png",
+      "title": "pytorch-translator",
+      "summary": "Simple cli for training sequence-to-sequence models for machine translation",
+      "link": "https://github.com/elvin-mark/pytorch-translator"
     }
   ]
 }
