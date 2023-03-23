@@ -1,8 +1,8 @@
-import React from 'react';
-import './Skills.css';
-import 'devicon'
-import "flag-icons"
-import skills from "../data/skills.json"
+import React from "react";
+import "./Skills.css";
+import "devicon";
+import "flag-icons";
+import skills from "../data/skills.json";
 
 function Skills() {
   const programmingSkills = skills.programmingSkills;
@@ -15,12 +15,13 @@ function Skills() {
       <div className="skills-grid">
         {programmingSkills.map((e) => (
           <div className="skill-card">
+            <div className="skill-level" style={{ "--level": e.level }}>
+              {e.level}
+            </div>
             <div className="skill-icon">
               <i class={e.icon}></i>
             </div>
-            <div className="skill-name">
-              {e.name}
-            </div>
+            <div className="skill-name">{e.name}</div>
           </div>
         ))}
       </div>
@@ -28,12 +29,13 @@ function Skills() {
       <div className="skills-grid">
         {frameworkSkills.map((e) => (
           <div className="skill-card">
+            <div className="skill-level" style={{ "--level": e.level }}>
+              {e.level}
+            </div>
             <div className="skill-icon">
               <i class={e.icon}></i>
             </div>
-            <div className="skill-name">
-              {e.name}
-            </div>
+            <div className="skill-name">{e.name}</div>
           </div>
         ))}
       </div>
@@ -41,12 +43,13 @@ function Skills() {
       <div className="skills-grid">
         {toolsSkills.map((e) => (
           <div className="skill-card">
+            <div className="skill-level" style={{ "--level": e.level }}>
+              {e.level}
+            </div>
             <div className="skill-icon">
               <i class={e.icon}></i>
             </div>
-            <div className="skill-name">
-              {e.name}
-            </div>
+            <div className="skill-name">{e.name}</div>
           </div>
         ))}
       </div>
@@ -54,17 +57,16 @@ function Skills() {
       <div className="skills-grid">
         {languageSkills.map((e) => (
           <div className="skill-card">
+            <div className="skill-level" style={{ "--level": e.level }}>
+              {e.level}
+            </div>
             <div className="skill-icon">
-              <i class={e.icon} style={{ "border": "solid" }}></i>
+              <i class={e.icon} style={{ border: "solid" }}></i>
             </div>
-            <div className="skill-name">
-              {e.name}
-            </div>
+            <div className="skill-name">{e.name}</div>
           </div>
         ))}
-
       </div>
-
     </div>
   );
 }

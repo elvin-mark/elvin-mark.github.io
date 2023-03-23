@@ -29,6 +29,23 @@
   .skill-card:hover {
     transform: translateY(-10px);
   }
+
+  .skill-level{
+    height: 20px;
+    width: 0px;
+    color: white;
+    text-align: center;
+  }
+  
+  .skill-card:hover .skill-level{
+    background-color: #2aa1dd;
+    height: 20px;
+    width: var(--level);
+  }
+  .skill-level{
+    transition: width 1s ease;
+  }
+
   
   .skill-icon {
     font-size: 60px;

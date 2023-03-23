@@ -7,17 +7,17 @@
         },
         {
             "name": "Typescript",
-            "level": "90%",
+            "level": "70%",
             "icon" : "devicon-typescript-plain"
         },
         {
             "name": "Python",
-            "level": "80%",
+            "level": "90%",
             "icon" : "devicon-python-plain"
         },
         {
             "name": "C/C++",
-            "level": "60%",
+            "level": "90%",
             "icon" : "devicon-c-plain"
         },
         {
@@ -27,19 +27,19 @@
         },
         {
             "name": "GoLang",
-            "level": "60%",
+            "level": "80%",
             "icon" : "devicon-go-plain"
         }
     ],
     "frameworkSkills": [
         {
             "name": "React",
-            "level": "85%",
+            "level": "80%",
             "icon" : "devicon-react-plain"
         },
         {
             "name": "Angular",
-            "level": "75%",
+            "level": "60%",
             "icon" : "devicon-angularjs-plain"
         },
         {
@@ -49,29 +49,29 @@
         },
         {
             "name": "Pytorch",
-            "level": "60%",
+            "level": "90%",
             "icon" : "devicon-pytorch-plain"
         }
     ],
     "toolsSkills": [
         {
             "name": "Docker",
-            "level": "60%",
+            "level": "70%",
             "icon" : "devicon-docker-plain"
         },
         {
             "name": "K8s",
-            "level": "60%",
+            "level": "70%",
             "icon" : "devicon-kubernetes-plain"
         },
         {
             "name": "Jenkins",
-            "level": "60%",
+            "level": "50%",
             "icon" : "devicon-jenkins-plain"
         },
         {
             "name": "Git",
-            "level": "60%",
+            "level": "80%",
             "icon" : "devicon-github-plain"
         }
     ],
