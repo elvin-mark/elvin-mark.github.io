@@ -1,41 +1,51 @@
-import "./App.css";
-import * as React from "react";
-import Box from "@mui/material/Box";
-import MyTabs from "./components/MyTabs";
-import { MemoryRouter, Route, Routes } from "react-router-dom";
-import AboutMe from "./components/AboutMe";
-import Projects from "./components/Projects";
-import Posts from "./components/Posts";
-import Playground from "./components/Playground";
-import Publications from "./components/Publications";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
-import Flower from "./components/Flower/Flower";
-import Pokedex from "./components/Pokedex/Pokedex";
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Blogs from './components/Blogs';
+import Publications from './components/Publications';
+import Footer from './components/Footer';
+
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <MemoryRouter initialEntries={["/"]} initialIndex={0}>
-        <Box sx={{ width: "100%" }}>
-          <MyTabs />
-          <Routes>
-            <Route path="/" element={<AboutMe />}></Route>
-            <Route path="/projects" element={<Projects />}></Route>
-            <Route path="/posts" element={<Posts />}></Route>
-            <Route
-              path="/playground"
-              element={<Playground></Playground>}
-            ></Route>
-            <Route
-              path="/publications"
-              element={<Publications></Publications>}
-            ></Route>
-            <Route path="/flower" element={<Flower />}></Route>
-            <Route path="/pokedex" element={<Pokedex />}></Route>
-          </Routes>
-        </Box>
-      </MemoryRouter>
-    </div>
+    <Router>
+      <div className="container">
+        <header>
+          <h1>Welcom to my Portfolio</h1>
+        </header>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">About</Link>
+            </li>
+            <li>
+              <Link to="/skills">Skills</Link>
+            </li>
+            <li>
+              <Link to="/projects">Projects</Link>
+            </li>
+            <li>
+              <Link to="/publications">Publications</Link>
+            </li>
+            <li>
+              <Link to="/blogs">Blogs</Link>
+            </li>
+          </ul>
+        </nav>
+        <Routes>
+          <Route path="/" exact element={<About/>} />
+          <Route path="/skills" element={<Skills/>} />
+          <Route path="/projects" element={<Projects/>} />
+          <Route path="/publications" element={<Publications/>} />
+          <Route path="/blogs" element={<Blogs/>} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

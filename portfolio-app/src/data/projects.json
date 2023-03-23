@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "image": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/project_pytorch_trainer.png",
+        "title": "PyTorch Trainer",
+        "description": "This is a simple project that help anybody to train computer vision models on many datasets, even in customize images datsets.",
+        "link": "https://github.com/elvin-mark/pytorch_trainer"
+    },
+    {
+        "id": 2,
+        "image": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/project_pytorch_detector.png",
+        "title": "PyTorch Detector",
+        "description": "This project aims to help anybody to help to train object detection models",
+        "link": "https://github.com/elvin-mark/pytorch_detector"
+    },
+    {
+        "id": 3,
+        "image": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/project_pokedex_ml.png",
+        "title": "Pokedex ML",
+        "description": "This project is a simple app that uses Conv Neural Networks to mimic the device pokedex from the famous anime Pokemon",
+        "link": "https://github.com/elvin-mark/pokedex-ml"
+    },
+    {
+        "id": 4,
+        "image": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/project_flower_search.png",
+        "title": "Flower ML",
+        "description": "Using convolutional networks to recognize the type of flower.",
+        "link": "https://github.com/elvin-mark/flower-ml"
+    },
+    {
+        "id": 5,
+        "image": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/project_pytorch_gan.png",
+        "title": "PyTorch GAN trainer",
+        "description": "Tool to train GAN models on diverse datasets.",
+        "link": "https://github.com/elvin-mark/pytorc_gan"
+    },
+    {
+        "id": 7,
+        "image": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/jade.png",
+        "title": "JaDE: Java Deep Learning Library",
+        "description": "Simple Java Library for deep learning.",
+        "link": "https://github.com/elvin-mark/jade"
+    },
+    {
+        "id": 8,
+        "image": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/pytorch_audio.png",
+        "title": "pytorch-audio",
+        "description": "Simple cli for training speech recognition models",
+        "link": "https://github.com/elvin-mark/pytorch-audio"
+    },
+    {
+        "id": 9,
+        "image": "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/images/pytorch_translator.png",
+        "title": "pytorch-translator",
+        "description": "Simple cli for training sequence-to-sequence models for machine translation",
+        "link": "https://github.com/elvin-mark/pytorch-translator"
+    }
+]

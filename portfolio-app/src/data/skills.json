@@ -1,0 +1,95 @@
+{
+    "programmingSkills": [
+        {
+            "name": "Javascript",
+            "level": "70%",
+            "icon" : "devicon-javascript-plain"
+        },
+        {
+            "name": "Typescript",
+            "level": "90%",
+            "icon" : "devicon-typescript-plain"
+        },
+        {
+            "name": "Python",
+            "level": "80%",
+            "icon" : "devicon-python-plain"
+        },
+        {
+            "name": "C/C++",
+            "level": "60%",
+            "icon" : "devicon-c-plain"
+        },
+        {
+            "name": "Java",
+            "level": "60%",
+            "icon" : "devicon-java-plain"
+        },
+        {
+            "name": "GoLang",
+            "level": "60%",
+            "icon" : "devicon-go-plain"
+        }
+    ],
+    "frameworkSkills": [
+        {
+            "name": "React",
+            "level": "85%",
+            "icon" : "devicon-react-plain"
+        },
+        {
+            "name": "Angular",
+            "level": "75%",
+            "icon" : "devicon-angularjs-plain"
+        },
+        {
+            "name": "Flask",
+            "level": "70%",
+            "icon" : "devicon-flask-plain"
+        },
+        {
+            "name": "Pytorch",
+            "level": "60%",
+            "icon" : "devicon-pytorch-plain"
+        }
+    ],
+    "toolsSkills": [
+        {
+            "name": "Docker",
+            "level": "60%",
+            "icon" : "devicon-docker-plain"
+        },
+        {
+            "name": "K8s",
+            "level": "60%",
+            "icon" : "devicon-kubernetes-plain"
+        },
+        {
+            "name": "Jenkins",
+            "level": "60%",
+            "icon" : "devicon-jenkins-plain"
+        },
+        {
+            "name": "Git",
+            "level": "60%",
+            "icon" : "devicon-github-plain"
+        }
+    ],
+    "languageSkills": [
+        {
+            "name": "English",
+            "level": "Fluent",
+            "icon" : "fi fi-us"
+        },
+        {
+            "name": "Spanish",
+            "level": "Native",
+            "icon" : "fi fi-es"
+        },
+        {
+            "name": "Japanese",
+            "level": "Intermediate",
+            "icon" : "fi fi-jp"
+        }
+    ]
+}

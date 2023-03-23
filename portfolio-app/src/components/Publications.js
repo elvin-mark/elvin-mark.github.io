@@ -1,27 +1,24 @@
-import React, { useState, useEffect } from "react";
-import { List } from "@mui/material";
-import PublicationItem from "./PublicationItem";
+import React from 'react';
+import "./Publications.css"
+import publicationList from "../data/publications.json"
 
-function Publications() {
-  const [data, setData] = useState([]);
-  useEffect(() => {
-    fetch(
-      "https://raw.githubusercontent.com/elvin-mark/elvin-mark.github.io/main/data/publications.json"
-    )
-      .then((response) => response.json())
-      .then((res) => {
-        setData(res.publications);
-      });
-  }, []);
+const Publications = () => {
   return (
-    <div>
-      <List>
-        {data.map((elem) => (
-          <PublicationItem {...elem} key={elem.id}></PublicationItem>
+    <div className="publications-container">
+      <h2 className="publications-header">Publications</h2>
+      <ul className="publications-list">
+        {publicationList.map((publication, index) => (
+          <li className="publication-item" key={index}>
+            <a href={publication.link} target="_blank" rel="noopener noreferrer" className="publication-link">
+              <h3 className="publication-title">{publication.title}</h3>
+            </a>
+            <p className="publication-authors">{publication.authors}</p>
+            <p className="publication-journal">{publication.journal}, {publication.year}</p>
+          </li>
         ))}
-      </List>
+      </ul>
     </div>
   );
-}
+};
 
 export default Publications;
