@@ -30,3 +30,95 @@
   }
   
   
+  .education-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .education-image {
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
+    margin-right: 2rem;
+  }
+  
+  .education-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .education-institution {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .education-degree {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .education-graduation-year {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .education-timeline {
+    position: relative;
+    padding: 20px 0;
+  }
+  
+  .timeline {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  
+  .timeline-icon {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .timeline-icon i {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .timeline-content {
+    margin-left: 70px;
+    /* background-color: #f7f7f7; */
+    background-color: #e8dddd77;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timeline-year {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  

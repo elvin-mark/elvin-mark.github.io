@@ -15,7 +15,7 @@ function App() {
     <Router>
       <div className="container">
         <header>
-          <h1>Welcom to my Portfolio</h1>
+          <h1>Welcome to my Portfolio</h1>
         </header>
         <nav>
           <ul>
