@@ -3,62 +3,20 @@
     <h1 class="text-4xl font-bold text-gray-800 mb-6">My Projects</h1>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div
+        *ngFor="let project of projects"
         class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105"
       >
         <img
-          src="assets/project1.jpg"
-          alt="Project 1"
+          [src]="project.img"
+          [alt]="project.alt"
           class="w-full h-40 object-cover"
         />
         <div class="p-4">
-          <h2 class="text-xl font-semibold">Project Title 1</h2>
-          <p class="text-gray-600">
-            Short description of the project highlighting its purpose and
-            technologies used.
-          </p>
-          <a href="#" class="mt-2 inline-block text-blue-500 hover:underline"
-            >View Project</a
-          >
-        </div>
-      </div>
-
-      <div
-        class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105"
-      >
-        <img
-          src="assets/project2.jpg"
-          alt="Project 2"
-          class="w-full h-40 object-cover"
-        />
-        <div class="p-4">
-          <h2 class="text-xl font-semibold">Project Title 2</h2>
-          <p class="text-gray-600">
-            Short description of the project highlighting its purpose and
-            technologies used.
-          </p>
-          <a href="#" class="mt-2 inline-block text-blue-500 hover:underline"
-            >View Project</a
-          >
-        </div>
-      </div>
-
-      <!-- Add more project cards as needed -->
-
-      <div
-        class="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105"
-      >
-        <img
-          src="assets/project.jpg"
-          alt="Project Title"
-          class="w-full h-40 object-cover"
-        />
-        <div class="p-4">
-          <h2 class="text-xl font-semibold">Project Title</h2>
-          <p class="text-gray-600">
-            Brief description about the project, what technologies were used,
-            and its significance.
-          </p>
-          <a href="#" class="mt-2 inline-block text-blue-500 hover:underline"
+          <h2 class="text-xl font-semibold">{{ project.title }}</h2>
+          <p class="text-gray-600">{{ project.description }}</p>
+          <a
+            [href]="project.link"
+            class="mt-2 inline-block text-blue-500 hover:underline"
             >View Project</a
           >
         </div>
