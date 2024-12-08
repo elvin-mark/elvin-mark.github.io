@@ -10,6 +10,29 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './experience.component.scss',
 })
 export class ExperienceComponent {
+  educationList = [
+    {
+      title: 'BSc. Engineering Physics',
+      organization: 'National University of Engineering',
+      location: 'Lima, Peru',
+      duration: '2011-2016',
+      remarks: [],
+    },
+    {
+      title: 'Japanese Language School',
+      organization: '大阪大学日本語日本教育センター',
+      location: 'Tokyo, Japan',
+      duration: '2017-2018',
+      remarks: [],
+    },
+    {
+      title: 'BSc. Computer Science',
+      organization: 'Tokyo Institute of Technology',
+      location: 'Tokyo, Japan',
+      duration: '2018-2022',
+      remarks: [],
+    },
+  ];
   experiences = [
     {
       role: 'Researcher',
