@@ -1,0 +1,18 @@
+<!-- papers-list.component.html -->
+<div class="papers-list">
+  <h1>My Published Papers</h1>
+
+  <div class="papers-grid" *ngIf="papers && papers.length; else noPapers">
+    <div class="paper-item" *ngFor="let paper of papers">
+      <h2>{{ paper.title }}</h2>
+      <p><strong>Authors:</strong> {{ paper.authors }}</p>
+      <p><strong>Published in:</strong> {{ paper.journal }}</p>
+      <p><strong>Year:</strong> {{ paper.year }}</p>
+      <a *ngIf="paper.link" [href]="paper.link" target="_blank">Read Paper</a>
+    </div>
+  </div>
+
+  <ng-template #noPapers>
+    <p>No papers have been published yet.</p>
+  </ng-template>
+</div>
