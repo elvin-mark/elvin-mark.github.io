@@ -10,6 +10,22 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './papers.component.scss',
 })
 export class PapersComponent {
+  certifications: any = [
+    {
+      title: '日本語能力試験N１/Japanese Language Proficiency Test N1',
+      organization: 'Japan Educational Exchanges and Services',
+      date: new Date(2024, 7),
+      description: '',
+      link: 'https://www.jlpt.jp/about/levelsummary.html',
+    },
+    {
+      title: '基本情報技術者 / Fundamental Information Technology Engineer',
+      organization: 'IPA: Information-technology Promotion Agency, Japan',
+      date: new Date(2024, 11),
+      description: '',
+      link: 'https://www.ipa.go.jp/shiken/kubun/fe.html',
+    },
+  ];
   papers: any = [
     {
       title:
